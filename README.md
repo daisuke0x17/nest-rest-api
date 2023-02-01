@@ -13,7 +13,11 @@
   - Controller側でServiceをインスタンス化せずに利用できることが特徴！
     - ControllerのコンストラクタにServiceを引数で渡すと自動でインスタンス化
   - Moduleでcontrollerとproviders(service)を設定する必要がある
-- 
+
+- Nestでの典型的なDIパターン
+  - 自作のServiceをProviderにインジェクションするパターン
+  - 外部モジュールをProviderにインジェクションするパターン
+    - 外部モジュール側でexportsするとインポート側のServiceで利用可能になる
 
 ## Description
 
