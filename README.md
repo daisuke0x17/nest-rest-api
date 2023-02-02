@@ -6,7 +6,7 @@
   - 可読性、保守性に優れたソフトウェア開発
 - Expressのノウハウを活用しつつ高品質なソフトウェア開発が可能
 
-## Memo
+## Note
 - DI (Dependency Injection)
   - ソフトウェアを疎結合にするためのデザインパターン
   - NestではControllerがServiceのメソッドを呼ぶことで処理を実行
